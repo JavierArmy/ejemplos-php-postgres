@@ -8,7 +8,7 @@
   </head>
   <body>
     <?php
-        if($_GET['error']){
+        if(isset($_GET['error'])){
           echo "<h5>". $_GET['error'] ."</h5>";
         }
     ?>
